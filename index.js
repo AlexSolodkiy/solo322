@@ -1,8 +1,9 @@
 let accCont = document.querySelector('.container__content')
 
 let plus = document.querySelector('.plus').onclick = function (){
-
+    
     accCont.classList.toggle('show');
+ 
     if(this.classList.contains('plus')){
         this.classList.remove('plus');
         this.classList.add('plus-active')
